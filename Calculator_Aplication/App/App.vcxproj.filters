@@ -4,10 +4,27 @@
     <Filter Include="Aplication">
       <UniqueIdentifier>{69193449-949d-456e-839e-26e9feaa31b2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Aplication\Screen">
+      <UniqueIdentifier>{d909e837-74b7-49d9-8e50-71b5f05fb3b1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Src\main.cpp">
       <Filter>Aplication</Filter>
     </ClCompile>
+    <ClCompile Include="screen.cpp">
+      <Filter>Aplication\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="program.cpp">
+      <Filter>Aplication</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="screen.h">
+      <Filter>Aplication\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="program.h">
+      <Filter>Aplication</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
