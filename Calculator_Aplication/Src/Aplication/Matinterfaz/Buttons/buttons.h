@@ -12,7 +12,6 @@ private:
 
 	bool _selected;
 	int _type;
-	Texture2D _texture;
 	Rectangle _collider;
 
 	struct TEXT
@@ -31,7 +30,6 @@ public:
 	~Button();
 
 	//GETERS
-	Texture2D getBtn() { return _texture; }
 	Vector2 getPos() { return _posButton; }
 	Rectangle getCollider() { return _collider; }
 	float getSpacing() { return _textBtn.spacing; }
@@ -54,7 +52,5 @@ public:
 	void setTextButton(const char* textHere);
 	void setBtnScale(int scaleX, int sclaeY);
 	void setType(int type);
-	void loadTextures(int& scaleX, int& scaleY);
-	void unloadTextures();
 };
 #endif // !BUTTONS_H

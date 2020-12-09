@@ -7,6 +7,12 @@ Button::Button(float posX, float posY, int scaleX, int scaleY, int type)
 	_scaleX = scaleX;
 	_scaleY = scaleY;
 	_type = type;
+
+	_textBtn.colorText = BLACK;
+	_textBtn.fontSize = 35;
+	_textBtn.spacing = 1;
+	_textBtn.worldWrap = false;
+	_textBtn.text = "?";
 }
 
 Button::~Button()
@@ -52,14 +58,4 @@ void Button::setBtnScale(int scaleX, int scaleY)
 void Button::setType(int type)
 {
 	_type = type;
-}
-
-void Button::loadTextures(int & scaleX, int & scaleY)
-{
-
-}
-
-void Button::unloadTextures()
-{
-
 }

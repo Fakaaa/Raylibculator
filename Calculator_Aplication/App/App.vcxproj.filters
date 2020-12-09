@@ -33,10 +33,10 @@
     <ClCompile Include="..\Src\Aplication\program.cpp">
       <Filter>Aplication</Filter>
     </ClCompile>
-    <ClCompile Include="interfaz.cpp">
+    <ClCompile Include="..\Src\Aplication\Matinterfaz\interfaz.cpp">
       <Filter>Aplication\MatInterfaz</Filter>
     </ClCompile>
-    <ClCompile Include="buttons.cpp">
+    <ClCompile Include="..\Src\Aplication\Matinterfaz\Buttons\buttons.cpp">
       <Filter>Aplication\MatInterfaz\Buttons</Filter>
     </ClCompile>
   </ItemGroup>
@@ -47,10 +47,10 @@
     <ClInclude Include="..\Src\Aplication\program.h">
       <Filter>Aplication</Filter>
     </ClInclude>
-    <ClInclude Include="interfaz.h">
+    <ClInclude Include="..\Src\Aplication\Matinterfaz\interfaz.h">
       <Filter>Aplication\MatInterfaz</Filter>
     </ClInclude>
-    <ClInclude Include="buttons.h">
+    <ClInclude Include="..\Src\Aplication\Matinterfaz\Buttons\buttons.h">
       <Filter>Aplication\MatInterfaz\Buttons</Filter>
     </ClInclude>
   </ItemGroup>
