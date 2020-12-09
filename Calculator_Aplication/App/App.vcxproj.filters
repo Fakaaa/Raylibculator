@@ -7,24 +7,51 @@
     <Filter Include="Aplication\Screen">
       <UniqueIdentifier>{d909e837-74b7-49d9-8e50-71b5f05fb3b1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Aplication\ResultScreen">
+      <UniqueIdentifier>{3cca4acc-c89d-4c4a-8cac-27ad662a6f55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Aplication\MatInterfaz">
+      <UniqueIdentifier>{48052de3-4792-466c-afcf-4d6225b52bc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Aplication\MatInterfaz\GridNumbers">
+      <UniqueIdentifier>{21560244-4ef4-47f0-8ebf-e4635f4ee15c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Aplication\MatInterfaz\GridOperations">
+      <UniqueIdentifier>{c680f9d6-abfd-45b3-a8bc-a4cba4438a27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Aplication\MatInterfaz\Buttons">
+      <UniqueIdentifier>{f6083c06-dcbc-4761-a943-01e3661adeac}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Src\main.cpp">
       <Filter>Aplication</Filter>
     </ClCompile>
-    <ClCompile Include="screen.cpp">
+    <ClCompile Include="..\Src\Aplication\Screen\screen.cpp">
       <Filter>Aplication\Screen</Filter>
     </ClCompile>
-    <ClCompile Include="program.cpp">
+    <ClCompile Include="..\Src\Aplication\program.cpp">
       <Filter>Aplication</Filter>
+    </ClCompile>
+    <ClCompile Include="interfaz.cpp">
+      <Filter>Aplication\MatInterfaz</Filter>
+    </ClCompile>
+    <ClCompile Include="buttons.cpp">
+      <Filter>Aplication\MatInterfaz\Buttons</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="screen.h">
+    <ClInclude Include="..\Src\Aplication\Screen\screen.h">
       <Filter>Aplication\Screen</Filter>
     </ClInclude>
-    <ClInclude Include="program.h">
+    <ClInclude Include="..\Src\Aplication\program.h">
       <Filter>Aplication</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaz.h">
+      <Filter>Aplication\MatInterfaz</Filter>
+    </ClInclude>
+    <ClInclude Include="buttons.h">
+      <Filter>Aplication\MatInterfaz\Buttons</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -19,13 +19,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\Src\Aplication\program.cpp" />
+    <ClCompile Include="..\Src\Aplication\Screen\screen.cpp" />
     <ClCompile Include="..\Src\main.cpp" />
-    <ClCompile Include="program.cpp" />
-    <ClCompile Include="screen.cpp" />
+    <ClCompile Include="buttons.cpp" />
+    <ClCompile Include="interfaz.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="program.h" />
-    <ClInclude Include="screen.h" />
+    <ClInclude Include="..\Src\Aplication\program.h" />
+    <ClInclude Include="..\Src\Aplication\Screen\screen.h" />
+    <ClInclude Include="buttons.h" />
+    <ClInclude Include="interfaz.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
